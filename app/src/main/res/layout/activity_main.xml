@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.customseekbar.MainActivity">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <com.example.administrator.customseekbar.CustomSeekBar
+          app:bsb_second_track_color="@color/colorPrimary"
+          app:bsb_bubble_color="@color/cheng"
+          app:bsb_thumb_text_color="@color/colorPrimaryDark"
+          android:id="@+id/seek_bar"
+          android:layout_width="match_parent"
+          android:layout_height="16dp"
+          android:layout_marginTop="100dp"
+          android:layout_marginLeft="60px"
+          android:layout_marginRight="60px"
+          app:bsb_show_thumb_text="true"
+          app:bsb_track_color="@color/white"
+          app:bsb_touch_to_seek="false" />
+      <com.example.administrator.customseekbar.CustomSeekBar
+          app:bsb_second_track_color="@color/colorPrimary"
+          app:bsb_bubble_color="@color/cheng"
+          app:bsb_thumb_text_color="@color/colorPrimaryDark"
+          android:id="@+id/seek_bar1"
+          android:layout_width="match_parent"
+          android:layout_height="16dp"
+          android:layout_marginTop="100dp"
+          android:layout_marginLeft="60px"
+          android:layout_marginRight="60px"
+          app:bsb_show_thumb_text="true"
+          app:bsb_track_color="@color/white"
+          app:bsb_touch_to_seek="false" />
+      <com.example.administrator.customseekbar.CustomSeekBar
+          app:bsb_second_track_color="@color/colorPrimary"
+          app:bsb_bubble_color="@color/cheng"
+          app:bsb_thumb_text_color="@color/colorPrimaryDark"
+          android:id="@+id/seek_bar2"
+          android:layout_width="match_parent"
+          android:layout_height="16dp"
+          android:layout_marginTop="100dp"
+          android:layout_marginLeft="60px"
+          android:layout_marginRight="60px"
+          app:bsb_show_thumb_text="true"
+          app:bsb_track_color="@color/white"
+          app:bsb_touch_to_seek="false" />
+  </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
